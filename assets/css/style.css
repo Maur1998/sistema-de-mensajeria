@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*General*/
+.flex-container{
+    display: flex;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 21.93%;
+    min-height: 100vh;
+    border-right: solid #E8EBE4;
+}
+
+.principal{
+    display: flex;
+    flex: 0 0 77.9%;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+/*Usuario activo*/
+
+.usuario-activo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid #E8EBE4;
+    min-height: 8.33vh;
+}
+
+.usuario-activo img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.activa{
+    font-size: small;
+    font-weight: 400;
+    color: #BEC1BB;
+}
+
+.nombre{
+    font-size: large;
+}
+
+.icono1{
+    margin-right: 1rem;
+}
+
+.iconos i{
+    color: #828485;
+}
+/*Nuevo chat*/
+.nuevo-chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 15.97vh;
+    border-bottom: solid #E8EBE4 2px;
+}
+
+.nuevo-chat button{
+    width: 13vw;
+    height: 6vh;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nuevo-chat button:hover{
+    background-color: #CDC3E6;
+}
+
+.nuevo-chat button:focus{
+    background-color: #BEC1BB;
+}
+
+/*Otros contactos*/
+.otros-contactos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+    font-size: large;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    height: 9.03vh;
+    border-bottom: solid #E8EBE4;
+}
+
+.contacto-final{
+    display: flex;
+    align-items: center;
+    height: 9.03vh;
+}
+
+.otros-contactos img{
+    border-radius: 50%;
+    border: solid #E8EBE4 2px;
+    width: 50px;
+    margin-right: 1rem;
+    margin-left: 10%;
+}
+
+.contacto-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-texto{
+    font-size: medium;
+}
+
+/*Principal*/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principal img{
+    width: 250px;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+.principal h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.principal p{
+    font-size: medium;
+}
